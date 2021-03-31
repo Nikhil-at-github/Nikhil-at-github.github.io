@@ -1,22 +1,22 @@
 Functional Test Cases
 
-1. check if all inputs fiels are working fine.
-2. check readability of button and are working fine.
-3. validations are done correctly.
+1. Check if all inputs fields are working fine. 
+2. Check readability of button and are working fine.
+3. Validations are done correctly. 
 4. Check if the functionality/calculation is done using BODMAS.
-5. Bill Amount should be a number - nothing will be accepted except a number.
-6. Tip Percentage should be a number - nothing will be accepted except a number.
+5. Bill Amount should be a number - nothing will be accepted except a number. 
+6. Tip Percentage should be a number - nothing will be accepted except a number. 
 7. No of people should be a whole number - nothing will be accepted except a number not even floating numbers.
-8. Bill Amount cann't be in less than 0
-9. Tip Percentage cann't be in less than or equall to 0 & not more than 100.
-10. Number of people cann't be in less than 1.
-11. If Number of people is equall to 1, then per person block will be not shown.
-12. final Tip per person amount will be round off upto 2 decimal places.
-13. final Total per person amount will be round off upto 2 decimal places.
-14. check if the UI is responsive or not and supports various view-ports.
-15. no special characters are valid in input text fields.
-16. for accuracy - Bill amount should always be greater than the number of people.(since we are rounding of upto 2 decimals places)
-17. for very big numbers - result will be shown in 'e'. 
-18. Time taken to execute the application should be less.
+8. Bill Amount cannot be in less than 0.
+9. Tip Percentage cannot be in less than or equal to 0 & not more than 100.
+10. Number of people can't be less than 1.
+11. If Number of people is equal to 1, then the per person block will not be shown.
+12. Final Tip per person amount will be rounded off upto 2 decimal places. 
+13. Final Total per person amount will be rounded off upto 2 decimal places.
+14. Check if the UI is responsive or not and supports various view-ports. 
+15. No special characters are valid in input text fields. 
+16. For accuracy - Bill amount should always be greater than the number of people.(since we are rounding of upto 2 decimals places) 
+17. For very big numbers - results will be shown in 'e'. 
+18. Time taken to execute the application should be less. 
 19. Application should work fine on various browsers.
 20. 
