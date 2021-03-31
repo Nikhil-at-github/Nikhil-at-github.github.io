@@ -1,0 +1,123 @@
+body {
+    font-family: Roboto;
+    background: whitesmoke;
+  }
+
+#container {
+    padding: 10px 30px;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #f7f7f7;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 2);
+    border-radius: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  
+  #billAmount, #serviceQual, #peopleamt{
+    font-size: 15px;
+    color:black;
+    min-width: 90%;
+    background-color: #f7f7f7;
+    padding: 5px 5px 8px 8px;
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background:black;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+  }
+
+  #totalTip, #totalAmoutWithTipPerPerson {
+    font-size: 30px;
+    border: black solid 2px;
+    padding: 10px;
+    margin: 15px 30px;
+    text-align: center;
+  }
+  
+  #totalTip:before {
+    content: "Tip";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  #totalAmoutWithTipPerPerson:before{
+    content: "Total";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #totalTip #totalAmoutWithTipPerPerson sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  #totalTip #totalAmoutWithTipPerPerson small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
+
+  /* Media querries - for responsive css */
+  @media screen and (max-width: 510px) {
+    button{
+      width: 100px;
+      height: 40px;
+      font-size: 12px;
+    }
+    #container{
+      padding: 5px 20px;
+      /* margin: 0px; */
+    }
+    #billAmount, #serviceQual, #peopleamt{
+      font-size: 12px;
+      max-width: 50%;
+      padding: 3px;
+    }
+    .column h2{
+      font-size: 18px;
+      margin-block-start: 0.6rem;
+      margin-block-end: 0.6rem;
+    }
+    #totalTip, #totalAmoutWithTipPerPerson {
+      font-size: 22px;
+      /* border: black solid 1px; */
+      padding: 5px;
+      margin: 10px 20px;
+    }
+    #totalTip:before {
+      font-size: 15px;
+    }
+
+    #totalAmoutWithTipPerPerson:before{
+      font-size: 15px;
+    }
+    #totalTip #totalAmoutWithTipPerPerson sup {
+      font-size: 15px;
+    }
+    
+    #totalTip #totalAmoutWithTipPerPerson small {
+      font-size: 15px;
+    }
+  }
