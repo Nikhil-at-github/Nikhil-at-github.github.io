@@ -1,3 +1,3 @@
 # Tip-Calculator
 
-[Live Link](http://github.com)
+[Live Link](https://nikhil-at-github.github.io/Tip-Calculator/)
