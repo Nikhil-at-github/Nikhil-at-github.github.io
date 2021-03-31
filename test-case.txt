@@ -19,4 +19,6 @@ Functional Test Cases
 17. For very big numbers - results will be shown in 'e'. 
 18. Time taken to execute the application should be less. 
 19. Application should work fine on various browsers.
-20. 
+20. Numbers without floating points are preferred for better results.
+
+
